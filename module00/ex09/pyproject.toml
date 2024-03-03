@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ft_package"
+version = "0.0.1"
+authors = [
+  {email = "lgiband@student.42.fr"},
+  {name = "lgiband"}
+]
+description = "A sample test packagee"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[project.urls]
+Home-page = "https://github.com/Seriots/PythonDataScienceModule00/"
